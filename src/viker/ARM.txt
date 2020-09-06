@@ -1,0 +1,5 @@
+ARM Diagram
+Class ( (self*), (Course* > Part, term, section, Professor* > Teach) ) 
+Course ( (self*),(^cnum, cname, Department* > Offer) ) 
+Professor ( (self*), (^pnum, pname, office, Department* > Work) ) 
+Department ( (self*), (^dcode, dname) )

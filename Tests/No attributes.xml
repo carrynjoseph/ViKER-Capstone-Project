@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile modified="2019-08-30T08:18:09.077Z" host="www.draw.io" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36" etag="y0dJjuGoAMIq406m0R-R" version="11.2.3" type="device" pages="1" compressed="false">
+  <diagram id="_npaiMlX2r3-JtBOLbZR" name="Page-1">
+    <mxGraphModel dx="946" dy="1716" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        <mxCell id="laKtwE-p2J-mn7E_pJ1I-44" value="&lt;h1 style=&quot;font-size: 34px;&quot;&gt;EER Diagram&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;fontStyle=4;fontSize=34;" vertex="1" parent="1">
+          <mxGeometry x="80" y="-140" width="300" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="laKtwE-p2J-mn7E_pJ1I-52" value="Transaction" style="shape=ext;strokeWidth=2;margin=10;double=1;whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="600" y="10" width="120" height="110" as="geometry"/>
+        </mxCell>
+        <mxCell id="laKtwE-p2J-mn7E_pJ1I-54" value="Weak Relation" style="shape=rhombus;double=1;strokeWidth=2;fontSize=17;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="375" y="15" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="laKtwE-p2J-mn7E_pJ1I-56" value="ATM" style="strokeWidth=2;rounded=1;arcSize=10;whiteSpace=wrap;html=1;align=center;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="130" y="15" width="100" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="laKtwE-p2J-mn7E_pJ1I-58" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERoneToMany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="laKtwE-p2J-mn7E_pJ1I-56" target="laKtwE-p2J-mn7E_pJ1I-54">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="260" y="250" as="sourcePoint"/>
+            <mxPoint x="360" y="150" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="laKtwE-p2J-mn7E_pJ1I-59" value="" style="edgeStyle=entityRelationEdgeStyle;fontSize=12;html=1;endArrow=ERmany;startArrow=ERmany;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="laKtwE-p2J-mn7E_pJ1I-54" target="laKtwE-p2J-mn7E_pJ1I-52">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="450" y="240" as="sourcePoint"/>
+            <mxPoint x="550" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
